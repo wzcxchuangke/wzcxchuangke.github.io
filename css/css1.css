@@ -1,0 +1,239 @@
+@charset "utf-8";
+
+*{margin:0;
+padding:0}
+
+.daynei:hover{color:#000;
+}
+.an2:hover{background:#000;
+}
+.lj:hover{text-decoration:underline;
+          color:#000;
+}
+
+body,td,th {
+	font-size: 15px;
+}
+
+<!--以下是导航栏-->
+#top{width:100%;
+position:fixed;
+z-index:999;
+background:#FFF;
+box-shadow:0 0 10px rgb(0 0 0 / 20%);
+}
+#danghang{
+	width: 950px;
+	height: 80px;
+	width: 960px;
+	margin: auto;
+	background-color: #FFF;
+}
+#danghang #menu ul{
+	list-style-type: none;
+	width: 600px;}
+#danghang #menu ul li{
+	height: 23px;
+	width: 120px;
+	float:left;
+}
+#logo {
+	float: left;
+	padding-top:16px;
+}
+#menu {
+	float: right;
+	padding-top:30px}
+#shouye{padding-left:30px;}
+.anniu{
+	position: absolute;
+	left: 50%;
+	top: 650px;
+	margin-left: -154px;
+	display: block;
+	width: 308px;
+	height: 107px;
+	background-color: #e1e000;
+	border: solid 5px #fff;
+	border-radius: 65px;
+	box-shadow: 0 2px 0 rgb(0 0 0 / 30%);
+	visibility: visible;
+}
+
+<!--以下是banner-->
+#neirong{width:100%;
+}
+#haibao{
+	background-image: url(../images/%E6%B5%B7%E6%8A%A5.png);
+	height: 710px;
+	background-color: #0e76bd;
+	padding-top: 80px;
+	background-position: center 80px;
+	background-repeat: no-repeat;
+}
+.an1{margin-left:48px;
+	margin-top:5px}
+	
+<!--以下是内容-->	
+#bigbox{width:100%;
+margin:auto;
+padding:0;
+position:relative;
+float:left
+}
+#box{
+	width:950px;
+    margin:auto;
+    padding:0;
+	background-color:#FFF;
+	}
+#boxzuo {
+	width: 445px;
+	float:left;
+	}
+#boxyou{
+	width:455px;
+	float:left;
+	}
+#neirong #bigbox #box #boxzuo ul {
+    list-style-type: none;
+	width:420px;
+	margin:0;
+	padding:0
+}
+.daynei{
+	margin-left: 50px;
+	color: #963;
+	font-weight: 400;
+	font-family: "方正准圆简体";
+	cursor: pointer;
+}
+#neirong #bigbox #box #boxzuo ul li {
+	padding: 15px 0;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #f1e4cf;
+	}
+
+
+#dsjbt{	
+	margin-top:50px;
+	margin-right:25px
+}
+#zpbt{
+	margin-top: 50px;
+	margin-left: 45px;
+}
+
+.day{
+	color: #ff8c54;
+	font-family: "字魂189号-星岩乐黑体";
+	cursor:pointer
+}
+
+#hbbox{
+	width:200px;
+    height:290px;
+	margin-left:150px;
+	margin-top:20px;
+    }
+#dian {
+	height: 15px;
+	width: 95px;
+	margin-left: 200px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+#apDiv1 {
+	position: absolute;
+	width: 200px;
+	height: 115px;
+	z-index: 3;
+	visibility: visible;
+}
+#apDiv2 {
+	position: absolute;
+	width: 200px;
+	height: 115px;
+	z-index: 2;
+	visibility: visible;
+}
+#apDiv3 {
+	position: absolute;
+	width: 200px;
+	height: 115px;
+	z-index: 1;
+	visibility: visible;
+}
+
+#wqkc{
+	width: 960px;
+	margin-top: 45px;
+	height: 1080px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	}
+#wqbt{
+	margin-top: 50px;
+}
+#kcbox{
+	width: 900px;
+	height: 350px;
+	margin-left: 45px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-top: 50px
+}
+#dian2{	
+	height: 15px;
+	width: 95px;
+	margin-top: 180px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.an2{  
+    width: 15px;
+    height: 15px;
+    border-radius:50%;
+    background: #999;
+	border:none;	
+	}
+.j{float:left;
+}
+.jx{padding-left:25px;
+float:left;
+}
+#footer{
+	text-align:center;
+	margin-top:25px;
+	}
+	
+	
+#yejiao{width:100%;
+        height:120px;
+		background-color:#ddf4f4;
+		margin-top:120px;
+}
+.ywz{padding-top:25px;
+     width:800px;
+}
+#yejiao .ywz ul {
+	list-style-type: none;
+	margin-left:500px;
+	width:300px;
+}
+#yejiao .ywz ul li{
+	width: 60px;
+	float: left;
+	font-family: "Adobe 黑体 Std R";
+	font-size: 12px;
+	color: #626262;
+	cursor: pointer;
+}
+.lj{color:#626262;
+    text-decoration:none;
+}
+
+
+<!--不得不感叹，这写的真是答辩一样的代码。希望你在以后的维护过程中将这答辩代码修复的越来越好-->
