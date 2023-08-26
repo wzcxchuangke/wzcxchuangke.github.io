@@ -3,6 +3,8 @@
 *{margin:0;
 padding:0}
 
+@font-face{font-family:zihun;
+src:url(../%E5%AD%97%E9%AD%82189%E5%8F%B7-%E6%98%9F%E5%B2%A9%E4%B9%90%E9%BB%91%E4%BD%93.ttf)}
 .daynei:hover{color:#000;
 }
 .an2:hover{background:#000;
@@ -127,7 +129,7 @@ float:left
 
 .day{
 	color: #ff8c54;
-	font-family: "字魂189号-星岩乐黑体";
+	font-family: zihun;
 	cursor:pointer
 }
 

@@ -11,14 +11,14 @@ padding:0}
 
 body,td,th {
 	font-size: 15px;
+	background-color: #f6fcfc;
 }
 
-<!--以下是导航栏-->
 #top{width:100%;
-position:fixed;
-z-index:999;
-background:#FFF;
-box-shadow:0 0 10px rgb(0 0 0 / 20%);
+     position:fixed;
+     z-index:999;
+     background-color: #FFF;
+     box-shadow:0 0 10px rgb(0 0 0 / 20%);
 }
 #danghang{
 	width: 950px;
@@ -60,13 +60,13 @@ box-shadow:0 0 10px rgb(0 0 0 / 20%);
 
 
 #nbox{width:100%;
-      height:970px;
+      height:auto;
 	  background-color:#f6fcfc;
 	  padding-top:80px;
 }
 #nr{
 	width: 950px;
-	height: 850px;
+	height:auto;
 	margin-right: auto;
 	margin-bottom: 0px;
 	margin-left: auto;
@@ -99,6 +99,7 @@ h2{
 #yejiao{width:100%;
         height:120px;
 		background-color:#ddf4f4;
+		margin-top:120px;
 }
 .ywz{padding-top:25px;
      width:800px;
