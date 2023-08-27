@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<site SitePrefVersionMajor="12" SitePrefVersionMinor="0">
+    <localinfo sitename="wzcxchuangke" ftporrdsserver="FALSE" mediaqueryfile="" localroot="D:%5C%E6%B8%A9%E5%B7%9E%E8%B4%A2%E6%A0%A1%20%E5%88%9B%E5%AE%A2%E7%A4%BE%5Cwzcxchuangke.github.io%5C" assetfolder="D:%5C%E6%B8%A9%E5%B7%9E%E8%B4%A2%E6%A0%A1%20%E5%88%9B%E5%AE%A2%E7%A4%BE%5Cwzcxchuangke.github.io%5CSpryAssets%5C" webfontsfolder="D:%5C%E6%B8%A9%E5%B7%9E%E8%B4%A2%E6%A0%A1%20%E5%88%9B%E5%AE%A2%E7%A4%BE%5Cwzcxchuangke.github.io%5Cwebfonts%5C" imagefolder="D:%5C%E6%B8%A9%E5%B7%9E%E8%B4%A2%E6%A0%A1%20%E5%88%9B%E5%AE%A2%E7%A4%BE%5Cwzcxchuangke.github.io%5Cimages%5C" spacerfilepath="" refreshlocal="TRUE" rewritedocrellinks="FALSE" cache="TRUE" httpaddress="http://" relativeTo="DOCUMENT" caseSensitiveLinks="FALSE" curserver="webserver"/>
+    <designnotes usedesignnotes="TRUE" sharedesignnotes="FALSE"/>
+    <sitemap homepage="" pagesperrow="200" columnwidth="125" showdependentfiles="FALSE" showpagetitles="FALSE" showhiddenfiles="FALSE"/>
+    <bcinfo siteid="0" sitename="" secureURL=""/>
+    <fileviewcolumns sharecolumns="FALSE">
+        <column name="Local%20Files" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="80" remotewidth="180"/>
+        <column name="Notes" align="center" show="FALSE" share="FALSE" builtin="TRUE" localwidth="36" remotewidth="36"/>
+        <column name="Size" align="right" show="TRUE" share="FALSE" builtin="TRUE" localwidth="-2" remotewidth="-2"/>
+        <column name="Type" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="60" remotewidth="60"/>
+        <column name="Modified" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="102" remotewidth="102"/>
+        <column name="Checked%20Out%20By" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="-1" remotewidth="-1"/>
+</fileviewcolumns>
+    <serverlist/>
+    <cloaking enabled="TRUE" patterns="FALSE">
+        <cloakedfolder folder="dw_php_codehinting.config"/>
+        <cloakedpattern pattern=".fla"/>
+        <cloakedpattern pattern=".psd"/>
+</cloaking>
+    <contributorintegration enabled="FALSE"/>
+</site>
