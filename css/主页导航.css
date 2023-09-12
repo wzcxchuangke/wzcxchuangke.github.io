@@ -1,5 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 #top{
-     position:fixed;
+    position: fixed;
+    font-size: 20px;
+    height: auto;
+    width: auto;
+    text-align: center;
+	line-height: 50px
 }
