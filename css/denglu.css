@@ -6,16 +6,16 @@
 	box-sizing: border-box;
 }
 body {
-	/* 弹性布局 让页面元素垂直+水平居中 */
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	/* 让页面始终占浏览器可视区域总高度 */
 	height: 100vh;
 	/* 背景渐变色 */
 	background: linear-gradient(#141e30, #243b55);
 }
 .login {
+	/* 弹性布局 让页面元素垂直+水平居中 */
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	/* 弹性布局 让子元素称为弹性项目 */
 	display: flex;
 	/* 让弹性项目垂直排列 原理是改变弹性盒子的主轴方向 父元素就是弹性盒子 现在改变后的主轴方向是向下了 */
@@ -28,8 +28,9 @@ body {
 	box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4);
 }
 .login h2 {
-	color: #fff;
-	margin-bottom: 30px;
+    color: #fff;
+    margin-bottom: 30px;
+    width: auto;
 }
 .login .login_box {
 	/* 相对定位 */
@@ -160,4 +161,7 @@ body {
 	100% {
 		bottom: 100%;
 	}
+}
+#logo {
+	margin: auto;
 }
