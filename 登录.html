@@ -1,52 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/登录.css">
-    <title>登录界面</title>
-</head>
-
-<body>
-    <div class="box">
-        <div class="left"></div>
-        <div class="right">
-            <h4>登 录</h4>
-            <form action="">
-                <input class="acc" type="text" placeholder="用户名">
-                <input class="acc" type="password" placeholder="密码">
-                <input class="submit" type="submit" value="Login">
-            </form>
-            <div class="fn">
-                <a href="javascript:;">注册账号</a>
-                <a href="javascript:;">找回密码</a>
-            </div>
-        </div>
-    </div>
-</body>
-
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>用户登录</title>
+		<link rel="stylesheet" href="css/denglu.css" />
+	</head>
+	<body>
+		<div class="login">
+			<h2>用户登录</h2>
+			<div class="login_box">
+				<!-- required就是不能为空 必须在css效果中有很大的作用 -->
+				<!-- 可以简写为required -->
+				<input type="text" required /><label>用户名</label>
+			</div>
+			<div class="login_box">
+				<input type="password" required="required" /><label>密码</label>
+			</div>
+			<a href="javascript:void(0)">
+				登录
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</a>
+		</div>
+	</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- https://space.bilibili.com/108279272 -->
