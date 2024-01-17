@@ -1,5 +1,5 @@
 var clouds = [document.getElementById("cloud0"),document.getElementById("cloud1"),document.getElementById("cloud2"),document.getElementById("cloud3")];
-var colors = ["#5375a0","#374e6b","#1b2735","#000","#7c766b","#8a8181","#978c97","#a598ad"];
+var colors = ["#5375a0","#374e6b","#1b2735","#000","#7c6b77","#87818a","#8c9097","#a598ad"];
 var moon = document.getElementById("moon");
 var doit = true;
 var nightend = 6;
